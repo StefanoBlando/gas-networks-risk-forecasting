@@ -1,0 +1,32 @@
+# Core data & analysis
+pandas
+numpy
+scipy
+
+# Machine learning
+scikit-learn
+lightgbm
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Geospatial
+geopandas
+shapely
+fiona
+pyproj
+
+# Synthetic data generation
+ctgan
+torch  # required by ctgan
+scikit-learn  # also used in CTGAN pipeline
+
+# Utilities
+tqdm
+jupyter
+ipykernel
+
+# Optional: if used in notebooks
+openpyxl
