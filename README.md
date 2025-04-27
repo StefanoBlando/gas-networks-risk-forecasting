@@ -2,27 +2,7 @@
 
 This project was developed during the **Hera Group Data Hackathon** and focuses on predicting gas leak risks across pipeline segments using real-world geospatial and operational data. The aim is to support predictive maintenance strategies and improve infrastructure safety.
 
-## 🚀 Project Goals
 
-- Integrate geospatial, temporal, and operational features from gas distribution networks  
-- Predict monthly leak occurrences at the subsystem (CODSISTEMA) level  
-- Provide a binary classifier (leak/no-leak) and a regression model (expected leak count)  
-- Generate synthetic data to enhance training via CTGAN and TimeGAN
-
-## 📦 Dataset Overview
-
-Data was provided by Hera Group for hackathon use only and includes:  
-- **Pipeline characteristics**: geometry, materials, diameter, installation year  
-- **Leak events**: timestamped gas leak reports linked to segments (IDSAP)  
-- **Risk levels**: monthly risk score (0-100) per segment from predictive models  
-
-> **Note**: Due to licensing restrictions, raw data files are not shared in this repository.
-
-# Gas Network Risk Forecasting
-
-This project was developed during the **Hera Group Data Hackathon** and focuses on predicting gas leak risks across pipeline segments using real-world geospatial and operational data. The goal is to support predictive maintenance strategies and improve infrastructure safety.
-
----
 
 ## 🚀 Project Goals
 
