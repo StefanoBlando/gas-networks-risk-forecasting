@@ -4,7 +4,7 @@ This project was developed during the **Hera Group Data Hackathon** and focuses 
 
 
 
-## 🚀 Project Goals
+## Project Goals
 
 - Integrate geospatial, temporal, and operational features from gas distribution networks  
 - Predict monthly leak occurrences at the subsystem (CODSISTEMA) level  
@@ -13,7 +13,7 @@ This project was developed during the **Hera Group Data Hackathon** and focuses 
 
 ---
 
-## 📦 Dataset Overview
+## Dataset Overview
 
 The dataset (not included) was provided by Hera Group for hackathon purposes and includes:
 
@@ -21,11 +21,11 @@ The dataset (not included) was provided by Hera Group for hackathon purposes and
 - **Leak events**: timestamped gas leak reports linked to segments (`IDSAP`)  
 - **Risk levels**: monthly risk score (0–100) per segment, from predictive models  
 
-> ⚠️ **Note**: Raw data files are proprietary and not included in this repository.
+>  **Note**: Raw data files are proprietary and not included in this repository.
 
 ---
 
-## 🧰 Repository Structure
+## Repository Structure
 
 ```bash
 gas-network-risk-forecasting/
@@ -54,14 +54,14 @@ gas-network-risk-forecasting/
 
     
 
-## ⚙️ Technologies & Models
+## Technologies & Models
 
 - **Languages**: Python (pandas, scikit-learn, LightGBM, geopandas)  
 - **Modeling**: Binary classification + regression (zero-inflated pipeline)  
 - **Generative**: CTGAN and TimeGAN for synthetic data  
 - **Visualization**: seaborn, matplotlib, plotly
 
-## 🧪 How to Use
+##  How to Use
 
 1. Clone this repo:  
 ```bash
@@ -78,17 +78,13 @@ pip install -r requirements.txt
 
 4. Run notebooks or modular scripts in the `src/` folder
 
-## 🔐 Data Access
+## Data Access
 
 This project uses proprietary datasets provided by Hera Group for hackathon purposes only.  
 To reproduce results, please request access from the organizers or use analogous public datasets.
 
-## 🧭 Future Work
+##  Future Work
 
 - Improving explainability (XAI) and causality estimation  
 - Testing models on new years or broader regions  
 - Incorporating weather and pressure sensors data
-
-## 📩 Contact
-
-For more information or collaboration, feel free to reach out via [GitHub](https://github.com/your-username).
