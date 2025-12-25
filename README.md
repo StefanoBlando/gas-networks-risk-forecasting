@@ -65,7 +65,7 @@ gas-network-risk-forecasting/
 
 1. Clone this repo:  
 ```bash
-git clone https://github.com/your-username/gas-network-risk-forecasting.git
+git clone https://github.com/StefanoBlando/gas-network-risk-forecasting.git
 cd gas-network-risk-forecasting
 ```
 
